@@ -10,10 +10,16 @@ import UIKit
 import Libstick
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var lbl: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         Libstick().test()
+        let t = "awefa-remkef".removeDash().trim()
+        print(t)
+        
+        let p = lbl.getPointFrom(view: self.view)
+        print(p)
     }
 
     override func didReceiveMemoryWarning() {
