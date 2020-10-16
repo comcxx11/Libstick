@@ -1,0 +1,6 @@
+framework module Pods_Libstick_Tests {
+  umbrella header "Pods-Libstick_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

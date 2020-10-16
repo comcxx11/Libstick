@@ -1,0 +1,22 @@
+{
+  "name": "Libstick",
+  "version": "0.1.0",
+  "summary": "A short description of Libstick.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/comcxx11/Libstick",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "comcxx11": "comcxx11@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/comcxx11/Libstick.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Libstick/Classes/**/*"
+}

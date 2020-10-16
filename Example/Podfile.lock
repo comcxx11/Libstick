@@ -1,0 +1,16 @@
+PODS:
+  - Libstick (0.1.0)
+
+DEPENDENCIES:
+  - Libstick (from `../`)
+
+EXTERNAL SOURCES:
+  Libstick:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Libstick: 662b33f6f541fbba42ea0200bfa2d4784c589d0c
+
+PODFILE CHECKSUM: 0af1e472b246a5073f2bf1ec5800e33705da7577
+
+COCOAPODS: 1.10.0.rc.1
