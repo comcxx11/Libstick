@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Libstick_Example' do
+  pod 'Libstick', :path => '../'
+
+  target 'Libstick_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
