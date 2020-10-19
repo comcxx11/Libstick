@@ -12,6 +12,8 @@
 		22C56ADC68D50367551BBCF529440BD0 /* Libstick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F42592DBF44B0793794C9D871E0BFA /* Libstick-dummy.m */; };
 		2F3DDA8E75A442F92F50B3D6C436912E /* Pods-Libstick_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8477E6DB818817761452293F626B61 /* Pods-Libstick_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		75E4F8E1CE5228A887BC76B5A62FEBDC /* Pods-Libstick_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBE2A8E3DD9598486AA3A8EBF7D4E92 /* Pods-Libstick_Tests-dummy.m */; };
+		B941A270253D1C5500AE154F /* LS+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B941A26F253D1C5500AE154F /* LS+UIColor.swift */; };
+		B941A272253D1D5900AE154F /* LS+CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B941A271253D1D5900AE154F /* LS+CGFloat.swift */; };
 		B9CF9D7A25393D3A004A99D2 /* LS+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CF9D7925393D3A004A99D2 /* LS+String.swift */; };
 		B9CF9D7F25394013004A99D2 /* LS+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CF9D7E25394013004A99D2 /* LS+UIView.swift */; };
 		C373991602F44A80107B6C7109D86A5E /* Libstick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEA1FF19D9A36DFC084CB75FB396B1F8 /* Libstick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -62,6 +64,8 @@
 		9E0ED34FD9F58FA1E794D41FCFEA0E22 /* Pods-Libstick_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Libstick_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AFF34448E5931E7AC7C3DD48F3C699DC /* Libstick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Libstick.release.xcconfig; sourceTree = "<group>"; };
 		B42D3EFA2BCAAB76D67768C0085B9386 /* Pods-Libstick_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Libstick_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B941A26F253D1C5500AE154F /* LS+UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "LS+UIColor.swift"; path = "Libstick/Classes/LS+UIColor.swift"; sourceTree = "<group>"; };
+		B941A271253D1D5900AE154F /* LS+CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "LS+CGFloat.swift"; path = "Libstick/Classes/LS+CGFloat.swift"; sourceTree = "<group>"; };
 		B9CF9D7925393D3A004A99D2 /* LS+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "LS+String.swift"; path = "Libstick/Classes/LS+String.swift"; sourceTree = "<group>"; };
 		B9CF9D7E25394013004A99D2 /* LS+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "LS+UIView.swift"; path = "Libstick/Classes/LS+UIView.swift"; sourceTree = "<group>"; };
 		BE4765508ED59EF1F4F771CCF0D693A8 /* Pods-Libstick_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Libstick_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -219,6 +223,8 @@
 		E27BEADEB3654F0F7D25EA3EA7898D5F /* Libstick */ = {
 			isa = PBXGroup;
 			children = (
+				B941A271253D1D5900AE154F /* LS+CGFloat.swift */,
+				B941A26F253D1C5500AE154F /* LS+UIColor.swift */,
 				B9CF9D7E25394013004A99D2 /* LS+UIView.swift */,
 				B9CF9D7925393D3A004A99D2 /* LS+String.swift */,
 				161B59A8EEB33165E68FD6DA74279D51 /* Libstick.swift */,
@@ -390,6 +396,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9CF9D7A25393D3A004A99D2 /* LS+String.swift in Sources */,
+				B941A272253D1D5900AE154F /* LS+CGFloat.swift in Sources */,
+				B941A270253D1C5500AE154F /* LS+UIColor.swift in Sources */,
 				B9CF9D7F25394013004A99D2 /* LS+UIView.swift in Sources */,
 				22C56ADC68D50367551BBCF529440BD0 /* Libstick-dummy.m in Sources */,
 				1620D19AA0C8E6703CBD40D8435EDCE3 /* Libstick.swift in Sources */,
